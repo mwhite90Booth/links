@@ -1,150 +1,152 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <title>President Josiah Bartlet's Links</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
-  <style>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>President Josiah Bartlet's Links</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <style>
 
-    body {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      background: linear-gradient(300deg, #fafeff, #ecf0f2, #e3e5e7, #c7c6ca, #c7c4c8);
-    }
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(300deg, #fafeff, #ecf0f2, #e3e5e7, #c7c6ca, #c7c4c8);
+      }
 
-    p {
-        font-style: italic;
-    }
+      p {
+          font-style: italic;
+      }
 
-    .items {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 640px;
-      flex-grow: 1;
-    }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
 
-    .header{
-      display: flex;
-      align-items: center;
-    }
+      .header{
+        display: flex;
+        align-items: center;
+      }
 
-    .banner {
-      display: flex;
-      justify-content: center;
-    }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
 
-    .banner-image {
-      width: 128px;
-      height: 128px;
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: #c62828 solid 3px
+      }
+
+      .thumbnail {
+        width: 48px;
+      height: 48px;
+      border-radius: 48px;
       object-fit: cover;
-      border-radius: 128px;
-      border: #c62828 solid 3px
-    }
+      }
 
-    .thumbnail {
-      width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    object-fit: cover;
-    }
+      .name{
+        color: #252525;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        font-size: 40px;
+        font-family: 'Snell Roundhand';
+      }
 
-    .name{
-      color: #252525;
-      display: flex;
-      justify-content: center;
-      flex-grow: 1;
-      font-size: 40px;
-      font-family: 'Snell Roundhand';
-    }
+      .social-icons{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+      }
 
-    .social-icons{
-      text-decoration: none;
-      display: flex;
-      justify-content: space-around;
-    }
+      .link{
+        background-color: #1769a4;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
 
-    .link{
-      background-color: #1769a4;
-      display: flex;
-      align-items: center;
-      padding: 5px;
-    }
+      .link a {
+        color: #ffffff;
+        text-decoration: none;
+        flex-grow: 1;
+        text-align: center;
+      }
 
-    .link a {
-      color: #ffffff;
-      text-decoration: none;
-      flex-grow: 1;
-      text-align: center;
-    }
+      .social-link {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
 
-    .social-link {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
+      .social-thumbnail {
+        max-height: 25px;
+        width: auto;
+        height: auto;
+      }
 
-    .social-thumbnail {
-      max-height: 25px;
-      width: auto;
-      height: auto;
-    }
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="header">
+        <div class="banner">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Josiah_Bartlett_with_chair.jpg" alt="West Wing President Josiah Bartlet" class="banner-image">
+        </div>
 
-  </style>
-</head>
-<body>
-  <div class="items">
-    <div class="header">
-      <div class="banner">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Josiah_Bartlett_with_chair.jpg" alt="West Wing President Josiah Bartlet" class="banner-image">
+        <div class="name">
+          President Josiah (Jed) Bartlet
+        </div>
+      </div>
+      <div class="social-icons">
+
+        <div class="social-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter Icon" class="social-thumbnail">
+          <a href="https://twitter.com/Pres_Bartlet" target="_blank">Twitter</a>
+        </div>
+
+        <div class="social-link">
+          <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="IMDB Icon" class="social-thumbnail">
+          <a href="https://www.linkedin.com/in/josiah-bartlet-53769149" target="_blank">LinkedIn</a>
+        </div>
+        
+        <div class="social-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDB Icon" class="social-thumbnail">
+          <a href="https://www.imdb.com/title/tt0200276/characters/nm0000640?ref_=tt_cl_c_1" target="_blank">IMDB</a>
+        </div>
+
       </div>
 
-      <div class="name">
-        President Josiah (Jed) Bartlet
-      </div>
-    </div>
-    <div class="social-icons">
-
-      <div class="social-link">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter Icon" class="social-thumbnail">
-        <a href="https://twitter.com/Pres_Bartlet" target="_blank">Twitter</a>
+      <div class="link">
+        <i class="fa-sharp fa-solid fa-person fa-beat fa-2xl" style="color: #e9ecf1;"></i>
+        <a href = "https://westwing.fandom.com/wiki/Josiah_Bartlet" target="_blank">Biography and Accomplishments</a>
       </div>
 
-      <div class="social-link">
-        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="IMDB Icon" class="social-thumbnail">
-        <a href="https://www.linkedin.com/in/josiah-bartlet-53769149" target="_blank">LinkedIn</a>
-      </div>
-      
-      <div class="social-link">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDB Icon" class="social-thumbnail">
-        <a href="https://www.imdb.com/title/tt0200276/characters/nm0000640?ref_=tt_cl_c_1" target="_blank">IMDB</a>
+      <div class="link">
+        <i class="fa-brands fa-youtube fa-beat fa-2xl" style="color: #e9ecf1;"></i>
+        <a href = "https://www.youtube.com/watch?v=85dKvletfSo" target="_blank">Watch me in last night's debate</a>
       </div>
 
-    </div>
+      <div class="link">
+        <i class="fa-sharp fa-solid fa-bolt fa-beat fa-2xl" style="color: #e9ecf1;"></i>
+        <a href = "https://westwing.fandom.com/wiki/Bartlet_Administration" target="_blank">Bartlett Administration Policies</a>
+      </div>
 
-    <div class="link">
-      <i class="fa-sharp fa-solid fa-person fa-beat fa-2xl" style="color: #e9ecf1;"></i>
-      <a href = "https://westwing.fandom.com/wiki/Josiah_Bartlet" target="_blank">Biography and Accomplishments</a>
-    </div>
+      <div class="link">
+        <i class="fa-sharp fa-solid fa-book fa-beat fa-2xl" style="color: #e9ecf1;"></i>
+        <a href = "https://www.amazon.com/ideas/amzn1.account.AHT5AZ55IUN546ZZM6W3U42S427Q/35LCN58X6T2WR" target="_blank">A list of some good reads</a>
+      </div>
 
-    <div class="link">
-      <i class="fa-brands fa-youtube fa-beat fa-2xl" style="color: #e9ecf1;"></i>
-      <a href = "https://www.youtube.com/watch?v=85dKvletfSo" target="_blank">Watch me in last night's debate</a>
+      <p> I decided to make a profile for Josiah Bartlet (president in the popular West Wing series), as I may or may not be currently watching that show....</p>
     </div>
-
-    <div class="link">
-      <i class="fa-sharp fa-solid fa-bolt fa-beat fa-2xl" style="color: #e9ecf1;"></i>
-      <a href = "https://westwing.fandom.com/wiki/Bartlet_Administration" target="_blank">Bartlett Administration Policies</a>
-    </div>
-
-    <div class="link">
-      <i class="fa-sharp fa-solid fa-book fa-beat fa-2xl" style="color: #e9ecf1;"></i>
-      <a href = "https://www.amazon.com/ideas/amzn1.account.AHT5AZ55IUN546ZZM6W3U42S427Q/35LCN58X6T2WR" target="_blank">A list of some good reads</a>
-    </div>
-
-    <p> I decided to make a profile for Josiah Bartlet (president in the popular West Wing series), as I may or may not be currently watching that show....</p>
-  </div>
-</body>
+  </body>
+</html>
